@@ -488,6 +488,47 @@ local Button = Tab:CreateButton({
 })	
 end	
 
+if game.PlaceId	== 1537690962 then
+	
+local Tab = Window:CreateTab("Bee Swarm Simulator", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("Bee Swarm Simulator")	
+	
+local Button = Tab:CreateButton({
+	Name = "Kometa",
+	Callback = function()
+loadstring(game:HttpGet('https://s.kometa.ga/kometa.lua'))()
+	end,
+})	
+
+local Button = Tab:CreateButton({
+	Name = "Histy Hub",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/Histy"))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Cloud Hub",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripters/CloudHub/main/hub"))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Macro V2",
+	Callback = function()
+loadstring(game:HttpGet("https://www.macrov2-script.xyz/macrov2.lua"))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Kocmoc",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Boxking776/kocmoc/main/kocmoc-remastered.lua"))()
+	end,
+})
+
+end	
 	
 	
 	
