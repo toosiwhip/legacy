@@ -23,7 +23,22 @@ local Window = Rayfield:CreateWindow({
 		Key = "Test"
 	}
 })
-		
+
+Rayfield:Notify({
+   Title = "Enjoy Using Statue Legacy",
+   Content = "Tell Us In Our Discord Server If Any Of The Scripts Don't Work!",
+   Duration = 6.5,
+   Image = 4483362458,
+   Actions = { -- Notification Buttons
+      Ignore = {
+         Name = "Okay!",
+         Callback = function()
+         print("The user tapped Okay!")
+      end
+   },
+},
+})
+
 if game.PlaceId	== 2753915549 then  
     
 local Tab = Window:CreateTab("Blox Fruits", 4483362458)   
@@ -529,9 +544,99 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Boxking776/kocmoc/mai
 })
 
 end	
+
+if game.PlaceId	== 4580204640 then
 	
-	
-	
+local Tab = Window:CreateTab("🔪 Survive the Killer!", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("🔪 Survive the Killer!")
+
+local Section = Tab:CreateSection("No Key")
+
+local Button = Tab:CreateButton({
+	Name = "ChairWare #1",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Milan08Studio/ChairWare/main/main.lua"))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Kiro",
+	Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Kiroftt/Survive-The-Killer/main/Simple'))();
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "El Toro",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FOXTROXHACKS/ElToro/main/Hub.lua"))()
+	end,
+})	
+
+local Button = Tab:CreateButton({
+	Name = "ESP",
+	Callback = function()
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+if game.PlaceId == 4580204640 then
+	local Window = OrionLib:MakeWindow({Name = "Survive the killers ESP", IntroEnabled = false})
+
+	local General = Window:MakeTab({
+		Name = "Swag Esp",
+		Icon = "rbxassetid://4483345998",
+		PremiumOnly = false
+	})
+
+	local Main = General:AddSection({
+		Name = "Main"
+	})
+
+	Main:AddToggle({
+		Name = "Killer ESP",
+		Default = false,
+		Callback = function(Value)
+			if Value then
+				for i, v in pairs(game:GetService("Players"):GetChildren()) do
+					if v.Character:FindFirstChildOfClass("Model") then
+						local Esp = Instance.new("Highlight")
+						Esp.Parent = v.Character
+					end
+				end
+			else
+				for i, v in pairs(game:GetService("Players"):GetChildren()) do if v.Character:FindFirstChild("Highlight") and v.Character:FindFirstChildOfClass("Model") then v.Character.Highlight:Destroy() end end
+			end
+		end    
+	})
+
+	Main:AddToggle({
+		Name = "Regular Players ESP",
+		Default = false,
+		Callback = function(Value)
+			if Value then
+				for i, v in pairs(game:GetService("Players"):GetChildren()) do
+					if not v.Character:FindFirstChildOfClass("Model") then
+						local Esp = Instance.new("Highlight")
+						Esp.FillColor = Color3.new(0, 1, 0)
+						Esp.Parent = v.Character
+					end
+				end
+			else
+				for i, v in pairs(game:GetService("Players"):GetChildren()) do if v.Character:FindFirstChild("Highlight") and not v.Character:FindFirstChildOfClass("Model") then v.Character.Highlight:Destroy() end end
+			end
+		end    
+	})
+else
+	OrionLib:MakeNotification({
+		Name = "Wrong game bozo",
+		Content = "By DylanIsAKing#2402",
+		Image = "rbxassetid://4483345998",
+		Time = 5
+	})
+end
+	end,
+})	
+
+end	
 	
 	
 	
@@ -591,12 +696,13 @@ end
 	
 local Tab = Window:CreateTab("Setting", 4483362458) -- Title, Image
 local Section = Tab:CreateSection("Setting")		
-	
+
 local Button = Tab:CreateButton({
 	Name = "Destroy Gui",
 	Callback = function()
 		Rayfield:Destroy()
 	end,
-})	
+})
+
 	
 Rayfield:LoadConfiguration()     
