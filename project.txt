@@ -652,13 +652,10 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/itsyouranya/free/mai
 	end,
 })	
 
-
-local Section = Tab:CreateSection("No Key")
-
 local Button = Tab:CreateButton({
 	Name = "Trey Hub",
 	Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/xtrey10x/xtrey10x-hub/main/Xtrey10xGpo"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xtrey10x/xtrey10x-hub/main/Arcane%20Odyssey%20Script"))()
 	end,
 })		
 
