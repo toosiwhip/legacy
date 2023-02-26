@@ -646,6 +646,13 @@ local Section = Tab:CreateSection("Arcane Odyssey [Early Access]")
 local Section = Tab:CreateSection("Key")
 
 local Button = Tab:CreateButton({
+	Name = "Statue Hub #1",
+	Callback = function()
+loadstring(game:HttpGet("https://www.statuescripts.com/Script"))()
+	end,
+})		
+
+local Button = Tab:CreateButton({
 	Name = "Anya",
 	Callback = function()
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/itsyouranya/free/main/arcaneodyssey.lua'),true))()
