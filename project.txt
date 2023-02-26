@@ -652,6 +652,8 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/itsyouranya/free/mai
 	end,
 })	
 
+local Section = Tab:CreateSection("No Key")
+
 local Button = Tab:CreateButton({
 	Name = "Trey Hub",
 	Callback = function()
