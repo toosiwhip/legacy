@@ -637,9 +637,32 @@ end
 })	
 
 end	
+
+if game.PlaceId	== 3272915504 or game.PlaceId == 12604352060 then
 	
+local Tab = Window:CreateTab("Arcane Odyssey [Early Access]", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("Arcane Odyssey [Early Access]")
 	
-	
+local Section = Tab:CreateSection("Key")
+
+local Button = Tab:CreateButton({
+	Name = "Anya",
+	Callback = function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/itsyouranya/free/main/arcaneodyssey.lua'),true))()
+	end,
+})	
+
+
+local Section = Tab:CreateSection("No Key")
+
+local Button = Tab:CreateButton({
+	Name = "Trey Hub",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xtrey10x/xtrey10x-hub/main/Xtrey10xGpo"))()
+	end,
+})		
+
+end
 	
 	
 	
