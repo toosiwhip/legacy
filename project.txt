@@ -823,8 +823,55 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/rubicmaster/ATSDrubic
 })
 
 end
+
+if game.PlaceId	== 6403373529 then	
 	
+local Tab = Window:CreateTab("Slap Battles👏", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("Slap Battles👏")		
 	
+local Section = Tab:CreateSection("Key")
+
+local Button = Tab:CreateButton({
+	Name = "LK Hub",
+	Callback = function()
+local old 
+old = hookfunction(game.HttpGet, function(self, url)
+    if type(url) == "string" then
+        if string.match(url, "check.php") then
+            return "Whitelisted"
+        end
+    end
+    return old(self, url)
+end)
+
+loadstring(game:HttpGet("https://lkhub.net/s/loader.lua"))()
+	end,
+})	
+
+local Section = Tab:CreateSection("No Key")
+
+local Button = Tab:CreateButton({
+	Name = "Oblivian Hub",
+	Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/katrina367/ScriptBlox-Projects/main/OblivionAutoEXEV1'))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Dizzy Hub",
+	Callback = function()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/dizyhvh/rbx_scripts/main/dizzy_hub/loader.lua")))();
+	end,
+})		
+
+local Button = Tab:CreateButton({
+	Name = "Drippy Hub",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ZombieGamesYT/DrippyHub-1.1/main/DrippyHub%201.2"))()
+	end,
+})
+
+end
 	
 	
 	
