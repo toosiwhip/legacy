@@ -244,8 +244,8 @@ end
 	
 if game.PlaceId	== 6284583030 or game.PlaceId == 10321372166 then
 	
-local Tab = Window:CreateTab("Pet Simulator", 4483362458) -- Title, Image
-local Section = Tab:CreateSection("Pet Simulator")	
+local Tab = Window:CreateTab("Pet Simulator X", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("Pet Simulator X")	
 
 
 local Section = Tab:CreateSection("Key")
