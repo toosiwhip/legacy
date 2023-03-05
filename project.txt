@@ -246,7 +246,26 @@ if game.PlaceId	== 6284583030 or game.PlaceId == 10321372166 then
 	
 local Tab = Window:CreateTab("Pet Simulator", 4483362458) -- Title, Image
 local Section = Tab:CreateSection("Pet Simulator")	
-	
+
+
+local Section = Tab:CreateSection("Key")
+
+local Button = Tab:CreateButton({
+	Name = "BT Project",
+	Callback = function()
+loadstring(game:HttpGetAsync("https://gitlab.com/Sky2836/test/-/raw/main/Script_All_In-One"))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Catalyst",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RiseValco/keybypasses/main/projectwd.lua"))()
+	end,
+})
+
+local Section = Tab:CreateSection("No Key")
+
 local Button = Tab:CreateButton({
 	Name = "ProjectWD",
 	Callback = function()
@@ -274,13 +293,6 @@ local Button = Tab:CreateButton({
 loadstring(game:HttpGet("https://HugeGames.io/script"))()
 	end,
 })
-
-local Button = Tab:CreateButton({
-	Name = "BT Project",
-	Callback = function()
-loadstring(game:HttpGetAsync("https://gitlab.com/Sky2836/test/-/raw/main/Script_All_In-One"))()
-	end,
-})	
 	end
 
 if game.PlaceId	== 4520749081 then
