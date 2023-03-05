@@ -260,7 +260,7 @@ loadstring(game:HttpGetAsync("https://gitlab.com/Sky2836/test/-/raw/main/Script_
 local Button = Tab:CreateButton({
 	Name = "Catalyst",
 	Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/RiseValco/keybypasses/main/projectwd.lua"))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/destylol/catalyst/itachi/main.lua'))()
 	end,
 })
 
