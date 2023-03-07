@@ -251,9 +251,9 @@ local Section = Tab:CreateSection("Pet Simulator X")
 local Section = Tab:CreateSection("Key")
 
 local Button = Tab:CreateButton({
-	Name = "BT Project",
+	Name = "ProjectWD",
 	Callback = function()
-loadstring(game:HttpGetAsync("https://gitlab.com/Sky2836/test/-/raw/main/Script_All_In-One"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Muhammad6196/Project-WD/main/Mainstring.lua"))()
 	end,
 })
 
@@ -267,12 +267,12 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/destylol/catalyst/ita
 local Section = Tab:CreateSection("No Key")
 
 local Button = Tab:CreateButton({
-	Name = "ProjectWD",
+	Name = "Extreme Hub",
 	Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/RiseValco/keybypasses/main/projectwd.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RiseValco/keybypasses/main/extremehub/bypass.lua"))()
 	end,
-})
-	
+})	
+
 local Button = Tab:CreateButton({
 	Name = "Milk Up",
 	Callback = function()
