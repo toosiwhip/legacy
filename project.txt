@@ -884,9 +884,45 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/ZombieGamesYT/DrippyH
 })
 
 end
+
+if game.PlaceId	== 8304191830 then	
 	
+local Tab = Window:CreateTab("Anime Adventures", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("Anime Adventures")
+
+local Section = Tab:CreateSection("Key")	
+
+local Button = Tab:CreateButton({
+	Name = "Snake Hub #1",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/toosiwhip/snake-hub/main/anime-adventures.lua"))()
+	end,
+})
+
+local Section = Tab:CreateSection("No Key")	
 	
-	
+local Button = Tab:CreateButton({
+	Name = "Arpon AG",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ArponAG/Scripts/main/AnimeAdventures.lua"))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Trap Hub",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TrapstarKSSKSKSKKS/Main/main/Anime%20Adventures.lua"))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Crimson Community",
+	Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/TirSANX/CrimsonHUB/main/C_Loader'))();
+	end,
+})
+
+end	
 	
 	
 	
