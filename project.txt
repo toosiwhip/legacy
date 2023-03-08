@@ -885,7 +885,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/ZombieGamesYT/DrippyH
 
 end
 
-if game.PlaceId	== 8304191830 then	
+if game.PlaceId == 8304191830 or game.PlaceId == 8349889591 then
 	
 local Tab = Window:CreateTab("Anime Adventures", 4483362458) -- Title, Image
 local Section = Tab:CreateSection("Anime Adventures")
