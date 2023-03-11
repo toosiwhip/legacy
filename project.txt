@@ -913,6 +913,7 @@ local Button = Tab:CreateButton({
 	Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/TrapstarKSSKSKSKKS/Main/main/Anime%20Adventures.lua"))()
 	end,
+
 })
 
 local Button = Tab:CreateButton({
@@ -923,10 +924,59 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/TirSANX/CrimsonHUB/ma
 })
 
 end	
+
+if game.PlaceId == 606849621 then
 	
+local Tab = Window:CreateTab("Jailbreak", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("Jailbreak")	
 	
-	
-	
+local Section = Tab:CreateSection("Key")	
+
+local Button = Tab:CreateButton({
+	Name = "Ice Tray",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/piglex9/icetray3/main/latest.lua"))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Vynixius",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Loader.lua"))()
+	end,
+})
+
+local Section = Tab:CreateSection("No Key")
+
+local Button = Tab:CreateButton({
+	Name = "Sycthe Hub V1",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LaeraLuzy/SyctheHubV1/main/script.lua",true))();
+	end,
+})	
+
+local Button = Tab:CreateButton({
+	Name = "Monkey Scripts",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KuriWasTaken/MonkeyScripts/main/JailMonkey.lua"))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "V.G Hub",
+	Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "JBX Script",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/wawsdasdacx/ohascriptnrrewading/main/jbsaxcriptidk1"))()
+	end,
+})
+
+end
 	
 	
 	
