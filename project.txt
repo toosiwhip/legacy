@@ -374,29 +374,12 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/
 })	
 end
 	
-if game.PlaceId	== 4616652839 or game.PlaceId == 4601350214 or game.PlaceId == 6901575446 or game.PlaceId == 6444873399 or game.PlaceId == 4601350394 or game.PlaceId == 4601350656 or game.PlaceId == 7923764447 or game.PlaceId == 5451405681 or game.PlaceId == 5451398863 or game.PlaceId == 6986372023 or game.PlaceId == 4601350760 or game.PlaceId == 5255237254 or game.PlaceId == 6602103757 then
+if game.PlaceId	== 4616652839 or game.PlaceId == 4601350214 or game.PlaceId == 6901575446 or game.PlaceId == 6444873399 or game.PlaceId == 4601350394 or game.PlaceId == 4601350656 or game.PlaceId == 7923764447 or game.PlaceId == 5451405681 or game.PlaceId == 5451398863 or game.PlaceId == 6986372023 or game.PlaceId == 4601350760 or game.PlaceId == 5255237254 or game.PlaceId == 6602103757 or game.PlaceId == 7534339269 then
 	
 local Tab = Window:CreateTab("Shindo Life", 4483362458) -- Title, Image
 local Section = Tab:CreateSection("Shindo Life")		
-	
-local Button = Tab:CreateButton({
-	Name = "Lite",
-	Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/SxnwDev/Premier/main/Free-Premier.lua", true))()
-	end,
-})
-local Button = Tab:CreateButton({
-	Name = "Project Nexus",
-	Callback = function()	
-loadstring(game:HttpGet("https://raw.githubusercontent.com/IkkyyDF/ProjectNexus/main/Loader.lua"))()
-	end,
-})
-local Button = Tab:CreateButton({
-	Name = "Project Meow",
-	Callback = function()	
-	    loadstring(game:HttpGet"https://rawscripts.net/raw/Project-Meow_421")()
-end,
-})
+
+local Section = Tab:CreateSection("Key")
 
 local Button = Tab:CreateButton({
 	Name = "Statue Extras",
@@ -404,6 +387,44 @@ local Button = Tab:CreateButton({
 	    loadstring(game:HttpGet("https://raw.githubusercontent.com/toosiwhip/statue/main/script"))()
 end,
 })
+
+local Button = Tab:CreateButton({
+	Name = "Project Nexus",
+	Callback = function()	
+loadstring(game:HttpGet("https://raw.githubusercontent.com/IkkyyDF/ProjectNexus/main/Loader.lua"))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Spy Hub",
+	Callback = function()	
+	 loadstring(game:HttpGet("https://raw.githubusercontent.com/Corrupt2625/Revamps/main/SpyHub.lua"))()
+end,
+})
+
+local Section = Tab:CreateSection("No Key")
+
+local Button = Tab:CreateButton({
+	Name = "V.G. Hub",
+	Callback = function()	
+loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Lite",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SxnwDev/Premier/main/Free-Premier.lua", true))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Auto Farm",
+	Callback = function()	
+	    loadstring(game:HttpGet(("https://pastebin.com/raw/Kc7XZKbC"),true))()
+end,
+})
+
 end
 
 if game.PlaceId	== 920587237 then	
