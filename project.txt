@@ -1026,6 +1026,31 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/wawsdasdacx/ohascript
 })
 
 end
+
+if game.PlaceId == 5171093784 then
+	
+local Tab = Window:CreateTab("Don't Press The Button 4", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("Don't Press The Button 4")	
+	
+local Section = Tab:CreateSection("Key")	
+
+local Button = Tab:CreateButton({
+	Name = "Snake Hub #1",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/toosiwhip/snake-hub/main/random.lua"))()
+	end,
+})
+
+local Section = Tab:CreateSection("No Key")
+
+local Button = Tab:CreateButton({
+	Name = "Green GUI",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SlamminPig/rblxgames/main/Don't%20Press%20The%20Button%204/DontPressTheButton4GUI"))()
+	end,
+})
+
+end
 	
 	
 	
