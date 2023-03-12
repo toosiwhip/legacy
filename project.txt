@@ -690,7 +690,14 @@ local Button = Tab:CreateButton({
 	Callback = function()
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/itsyouranya/free/main/arcaneodyssey.lua'),true))()
 	end,
-})	
+})
+
+local Button = Tab:CreateButton({
+	Name = "Xor V2",
+	Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/XorV2/script/main/ArcaneOdyssey'))()
+	end,
+})
 
 local Section = Tab:CreateSection("No Key")
 
@@ -699,7 +706,28 @@ local Button = Tab:CreateButton({
 	Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/xtrey10x/xtrey10x-hub/main/Arcane%20Odyssey%20Script"))()
 	end,
-})		
+})
+
+local Button = Tab:CreateButton({
+	Name = "Catware",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/bulanMoon/BlackHub/main/Hub",true))()
+	end,
+})	
+
+local Button = Tab:CreateButton({
+	Name = "Kidachi",
+	Callback = function()
+loadstring(game:HttpGet('https://kidachi.xyz/Odyssey', true))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Local",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/unknxwnlocal/localshitscripts/main/shitterarcane"))()
+	end,
+})
 
 end
 
