@@ -932,6 +932,13 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/ZombieGamesYT/DrippyH
 	end,
 })
 
+local Button = Tab:CreateButton({
+	Name = "R20 #1",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/cheesynob39/R20-EXPLOITER/main/Slap_Battles.lua"))()
+	end,
+})
+
 end
 
 if game.PlaceId == 8304191830 or game.PlaceId == 8349889591 then
