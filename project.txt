@@ -1186,7 +1186,36 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/Novaz5792/X/main/Frui
 })
 
 end
+
+if game.PlaceId == 6872265039 or game.PlaceId == 8560631822 or game.PlaceId == 6872274481 then
 	
+local Tab = Window:CreateTab("Bedwars", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("Bedwars")
+
+local Section = Tab:CreateSection("No Key")
+
+local Button = Tab:CreateButton({
+	Name = "Vape V4",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))() 
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Rektsky",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/8pmX8/rektsky4roblox/main/mainscript.lua"))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Amberware",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Technoraids/Amberware/main/RobloxTelanthricBedwars"))()
+	end,
+})
+
+end
 	
 	
 	
