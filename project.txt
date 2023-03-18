@@ -1216,8 +1216,80 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Technoraids/Amberware
 })
 
 end
+
+if game.PlaceId == 9872472334 then
 	
+local Tab = Window:CreateTab("Evade", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("Evade")
+
+local Section = Tab:CreateSection("Key")
+
+local Button = Tab:CreateButton({
+	Name = "Real-King",
+	Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/Evade/main/Main.lua'))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Reddy Hub",
+	Callback = function()
+loadstring(game:HttpGet('https://reddyhub.xyz/loader.html'))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "TRXDENT",
+	Callback = function()
+loadstring(game:HttpGet"https://pastebin.com/raw/gD0E8xvi")()
+	end,
+})
+
+local Section = Tab:CreateSection("No Key")
 	
+local Button = Tab:CreateButton({
+	Name = "Pepes",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/PepesGH1/stuff/main/evadeloader.lua"))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Kaoru",
+	Callback = function()
+loadstring(game:HttpGet('https://scripts.luawl.com/12655/Evade-Kaoru.lua'))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Vsync",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/vsyncdeveloper/vsync/main/Loader.lua"))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Cloud Hub",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripters/CloudHub/main/hub"))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Strew",
+	Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/9Strew/roblox/main/gamescripts/evade.lua'))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Plasek Hub",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/QQn2E740"))()
+	end,
+})
+
+end
 	
 	
 	
