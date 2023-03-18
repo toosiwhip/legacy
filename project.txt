@@ -1126,6 +1126,66 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Podroka626/Scripts/ma
 })
 
 end
+
+if game.PlaceId == 9224601490 then
+	
+local Tab = Window:CreateTab("Fruit Battlegrounds", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("Fruit Battlegrounds")
+
+local Section = Tab:CreateSection("Key")
+
+local Button = Tab:CreateButton({
+	Name = "Xor V2",
+	Callback = function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/XorV2/script/main/FruitBattlegrounds'),true))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Kyoichi Hub",
+	Callback = function()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/kyoichi35/Kyoichi-Hub/main/Kyoichi%20hub")))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Legend GUI",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/battle551/main/fruit00"))()
+	end,
+})
+
+local Section = Tab:CreateSection("No Key")
+
+local Button = Tab:CreateButton({
+	Name = "Red X Hub",
+	Callback = function()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/54ef37f65a9ce1ee8f1936718a90d656.lua"))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Kater Hub",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KATERGaming/Roblox/main/KaterHub.Lua"))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Jumble Scripts",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JumbleBumble/Scripts/main/FruitBattlegrounds.lua"))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Novaz",
+	Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Novaz5792/X/main/FruitBattlegroundsRollback'))()
+	end,
+})
+
+end
 	
 	
 	
