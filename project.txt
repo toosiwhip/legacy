@@ -1290,6 +1290,50 @@ loadstring(game:HttpGet("https://pastebin.com/raw/QQn2E740"))()
 })
 
 end
+
+if game.PlaceId == 8737602449 then
+	
+local Tab = Window:CreateTab("Pls Donate", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("Pls Donate")
+
+local Section = Tab:CreateSection("No Key")
+
+local Button = Tab:CreateButton({
+	Name = "Tzech - Auto Farm #1",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CF-Trail/tzechco-PlsDonateAutofarmBackup/main/old.lua"))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "V.G Hub",
+	Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Binary Hub",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/BinaryHubOfficial/binaryhub/main/init.lua"))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "CF-Trail",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CF-Trail/tzechco-PlsDonateAutofarmBackup/main/autofarm"))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Sinret",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/sinret/rbxscript.com-scripts-reuploads-/main/pd1", true))()
+	end,
+})
+
+end
 	
 	
 	
@@ -1322,15 +1366,66 @@ end
 	
 	
 	
+local Tab = Window:CreateTab("Universal (🌌)", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("Universal")	
+
+local Button = Tab:CreateButton({
+	Name = "Fly",
+	Callback = function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/WxmvCLLH'),true))()
+	end,
+})	
+
+local Slider = Tab:CreateSlider({
+   Name = "Walkspeed",
+   Range = {16, 100},
+   Increment = 1,
+   Suffix = "Speed",
+   CurrentValue = 0,
+   Flag = "Slider1",
+   Callback = function(speed)
+   game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = speed
+   end,
+})
+
+local Slider = Tab:CreateSlider({
+   Name = "Jumppower",
+   Range = {20, 100},
+   Increment = 1,
+   Suffix = "Power",
+   CurrentValue = 0,
+   Flag = "Slider1",
+   Callback = function(power)
+   game.Players.LocalPlayer.Character.Humanoid.JumpPower = power
+   end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Anti-AFK",
+	Callback = function()
+    wait(0.5)local ba=Instance.new("ScreenGui")
+local ca=Instance.new("TextLabel")local da=Instance.new("Frame")
+local _b=Instance.new("TextLabel")local ab=Instance.new("TextLabel")ba.Parent=game.CoreGui
+ba.ZIndexBehavior=Enum.ZIndexBehavior.Sibling;ca.Parent=ba;ca.Active=true
+ca.BackgroundColor3=Color3.new(0.176471,0.176471,0.176471)ca.Draggable=true
+ca.Position=UDim2.new(0.698610067,0,0.098096624,0)ca.Size=UDim2.new(0,370,0,52)
+ca.Font=Enum.Font.SourceSansSemibold;ca.Text="Anti Afk"ca.TextColor3=Color3.new(0,1,1)
+ca.TextSize=22;da.Parent=ca
+da.BackgroundColor3=Color3.new(0.196078,0.196078,0.196078)da.Position=UDim2.new(0,0,1.0192306,0)
+da.Size=UDim2.new(0,370,0,107)_b.Parent=da
+_b.BackgroundColor3=Color3.new(0.176471,0.176471,0.176471)_b.Position=UDim2.new(0,0,0.800455689,0)
+_b.Size=UDim2.new(0,370,0,21)_b.Font=Enum.Font.Arial;_b.Text="Made by Statue"
+_b.TextColor3=Color3.new(0,1,1)_b.TextSize=20;ab.Parent=da
+ab.BackgroundColor3=Color3.new(0.176471,0.176471,0.176471)ab.Position=UDim2.new(0,0,0.158377,0)
+ab.Size=UDim2.new(0,370,0,44)ab.Font=Enum.Font.ArialBold;ab.Text="Status: Active"
+ab.TextColor3=Color3.new(0,1,1)ab.TextSize=20;local bb=game:service'VirtualUser'
+game:service'Players'.LocalPlayer.Idled:connect(function()
+bb:CaptureController()bb:ClickButton2(Vector2.new())
+ab.Text="Roblox kicked you but we didnt let them!"wait(2)ab.Text="Status : Active"end)
+	end,
+})
 	
-	
-	
-	
-	
-	
-	
-	
-local Tab = Window:CreateTab("Setting", 4483362458) -- Title, Image
+local Tab = Window:CreateTab("Settings 🔧", 4483362458) -- Title, Image
 local Section = Tab:CreateSection("Setting")		
 
 local Button = Tab:CreateButton({
