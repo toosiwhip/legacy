@@ -1334,6 +1334,75 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/sinret/rbxscript.com-
 })
 
 end
+
+if game.PlaceId == 11040063484 then
+	
+local Tab = Window:CreateTab("Sword Fighters Simulator", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("Sword Fighters Simulator")
+
+local Section = Tab:CreateSection("Key")
+
+local Button = Tab:CreateButton({
+	Name = "Soggyware #2",
+	Callback = function()
+loadstring(game:HttpGet("https://soggy-ware.cf"))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Linest",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/XLinestX/Main/ShinyTool/Loader.lua"))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Zer0 Hub",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Discord0000/Zer0Hub/main/MainScript.lua"))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Distic Hub",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/bebedi15/DisticHub/main/Loader.lua"))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Snake Hub #1",
+	Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/toosiwhip/snake-hub/main/sword-fighters.lua'))()
+	end,
+})
+
+local Section = Tab:CreateSection("No Key")
+
+local Button = Tab:CreateButton({
+	Name = "Sakai",
+	Callback = function()
+loadstring(Game:HttpGet("https://raw.githubusercontent.com/Saaakai/Random-Roblox-Script/main/Sword%20Fighters%20Sim"))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Insight #3",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/accountnop/Insight/script/SFS.lua"))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Silver Hub",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KidScripts/Scripts/main/Silver-Hub-Keyless.lua",true))()
+	end,
+})
+
+end
+
+
 	
 	
 	
