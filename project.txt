@@ -1402,6 +1402,44 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/KidScripts/Scripts/ma
 
 end
 
+if game.PlaceId == 4490140733 then
+	
+local Tab = Window:CreateTab("My Restaurant!", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("My Restaurant!")
+
+local Section = Tab:CreateSection("Key")
+
+local Button = Tab:CreateButton({
+	Name = "Snake Hub - INSANE AUTO FARM",
+	Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/toosiwhip/snake-hub/main/my-restaurant.lua'))()
+	end,
+})
+
+local Section = Tab:CreateSection("No Key")
+
+local Button = Tab:CreateButton({
+	Name = "RblxScript",
+	Callback = function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/rblxscriptsnet/scripts/main/myrestaurant%20auto%20farm'),true))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "ToastedShoes",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ToastedShoes/MyResturantGui/master/.luaV4",true))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "VoidScripts",
+	Callback = function()
+loadstring(game:HttpGet("http://void-scripts.com/Scripts/myRest.lua"))()
+	end,
+})
+
+end
 
 	
 	
