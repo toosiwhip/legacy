@@ -1441,9 +1441,51 @@ loadstring(game:HttpGet("http://void-scripts.com/Scripts/myRest.lua"))()
 
 end
 
+if game.PlaceId == 142823291 then
 	
+local Tab = Window:CreateTab("Murder Mystery 2", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("Murder Mystery 2")
+
+local Section = Tab:CreateSection("Key")	
 	
-	
+local Button = Tab:CreateButton({
+	Name = "Statue - OP SOFT-AIM",
+	Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/toosiwhip/mm2/main/main.lua'))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Soggy-ware",
+	Callback = function()
+loadstring(game:HttpGet("https://www.soggy-ware.cf"))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Kidachi",
+	Callback = function()
+loadstring(game:HttpGet('https://kidachi.xyz/Script', true))()
+	end,
+})
+
+local Section = Tab:CreateSection("No Key")
+
+local Button = Tab:CreateButton({
+	Name = "Snow-Ware",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/F2B-HUB/F2B/main/HUB"))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "V.G Hub",
+	Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+	end,
+})
+
+end
 	
 	
 	
