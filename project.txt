@@ -1492,6 +1492,15 @@ if game.PlaceId == 9474703390 or game.PlaceId == 10202329527 or game.PlaceId == 
 local Tab = Window:CreateTab("Project Mugetsu", 4483362458) -- Title, Image
 local Section = Tab:CreateSection("Project Mugetsu")
 
+local Section = Tab:CreateSection("Key")	
+	
+local Button = Tab:CreateButton({
+	Name = "Statueware",
+	Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/toosiwhip/pm/main/main.lua'))()
+	end,
+})
+
 local Section = Tab:CreateSection("No Key")
 
 local Button = Tab:CreateButton({
