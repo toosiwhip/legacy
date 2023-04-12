@@ -1487,7 +1487,7 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/
 
 end
 
-if game.PlaceId == 9474703390 then
+if game.PlaceId == 9474703390 or game.PlaceId == 10202329527 or game.PlaceId == 11420877323 or game.PlaceId == 9447079542 then
 	
 local Tab = Window:CreateTab("Project Mugetsu", 4483362458) -- Title, Image
 local Section = Tab:CreateSection("Project Mugetsu")
