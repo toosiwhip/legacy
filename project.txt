@@ -260,7 +260,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Muhammad6196/Project-
 local Button = Tab:CreateButton({
 	Name = "Soggyware #1",
 	Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Muhammad6196/Project-WD/main/Mainstring.lua"))()
+loadstring(game:HttpGet("https://www.soggy-ware.cf"))()
 	end,
 })
 
