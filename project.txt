@@ -493,6 +493,8 @@ if game.PlaceId	== 6839171747 then
 local Tab = Window:CreateTab("Doors", 4483362458) -- Title, Image
 local Section = Tab:CreateSection("Doors")	
 
+local Section = Tab:CreateSection("Key")
+
 local Button = Tab:CreateButton({
 	Name = "Statue V4",
 	Callback = function()
@@ -506,6 +508,36 @@ local Button = Tab:CreateButton({
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/toosiwhip/toosi_scripts/main/doorsV4.lua"))()
 	end,
 })
+
+local Button = Tab:CreateButton({
+	Name = "Crimson Hub",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/toosiwhip/statue/main/crimsonhub-statue.lua"))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "ProjectWD",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/RiseValco/keybypasses/main/projectwd.lua"))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Statue V7 #1",
+	Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/toosiwhip/statue-v7/main/main.lua'))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Statue V8 - Hardmode",
+	Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/toosiwhip/statue-v8/main/update.lua'))()
+	end,
+})
+
+local Section = Tab:CreateSection("No Key")
 
 local Button = Tab:CreateButton({
 	Name = "Vynixius",
@@ -522,25 +554,12 @@ local Button = Tab:CreateButton({
 })	
 
 local Button = Tab:CreateButton({
-	Name = "Crimson Hub",
-	Callback = function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/toosiwhip/statue/main/crimsonhub-statue.lua"))()
-	end,
-})
-
-local Button = Tab:CreateButton({
 	Name = "OminousVibes",
 	Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/OminousVibes-Exploit/Scripts/main/doors/loadstring.lua"))()
 	end,
 })
 
-local Button = Tab:CreateButton({
-	Name = "ProjectWD",
-	Callback = function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/RiseValco/keybypasses/main/projectwd.lua"))()
-	end,
-})	
 end	
 
 if game.PlaceId	== 1537690962 then
